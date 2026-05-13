@@ -1,0 +1,3 @@
+Операционная система: ubuntu
+Пакетный менеджер : apt
+Команда: sudo apt install fastfetch 

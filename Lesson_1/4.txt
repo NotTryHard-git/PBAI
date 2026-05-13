@@ -1,0 +1,15 @@
+Script started on 2026-05-12 16:11:17+07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="102" LINES="51"]
+[?2004h]0;linux_user@DESKTOP-6ODE3PC: ~[01;32mlinux_user@DESKTOP-6ODE3PC[00m:[01;34m~[00m$ ls -lchmod 600 test[9Pls -l[1P[C[C[K-l[1@ [C[Cchmod 600 test[9Pls -l[Kls -lchmod 600 test[9Pls -l[1P[C[C[Kcd PythonCore/ls[Kcdlscd PythonCore/ls[K-l[1@ [C[Cchmod 600 test[9Pls -l[Ksleep 300 & 
+[?2004l[1] 973
+[?2004h]0;linux_user@DESKTOP-6ODE3PC: ~[01;32mlinux_user@DESKTOP-6ODE3PC[00m:[01;34m~[00m$ pgrep sleep
+[?2004l973
+[?2004h]0;linux_user@DESKTOP-6ODE3PC: ~[01;32mlinux_user@DESKTOP-6ODE3PC[00m:[01;34m~[00m$ ps aux | grep sleep
+[?2004llinux_u+     973  0.0  0.0  16104  7424 pts/2    S    16:11   0:00 [01;31m[Ksleep[m[K 300
+linux_u+     976  0.0  0.0   4120  2304 pts/2    S+   16:12   0:00 grep --color=auto [01;31m[Ksleep[m[K
+[?2004h]0;linux_user@DESKTOP-6ODE3PC: ~[01;32mlinux_user@DESKTOP-6ODE3PC[00m:[01;34m~[00m$ kill 973
+[?2004l[?2004h]0;linux_user@DESKTOP-6ODE3PC: ~[01;32mlinux_user@DESKTOP-6ODE3PC[00m:[01;34m~[00m$ pgrep sleep
+[?2004l[1]+  Terminated                 sleep 300
+[?2004h]0;linux_user@DESKTOP-6ODE3PC: ~[01;32mlinux_user@DESKTOP-6ODE3PC[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-05-12 16:12:42+07:00 [COMMAND_EXIT_CODE="1"]
